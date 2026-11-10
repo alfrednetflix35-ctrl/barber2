@@ -5,7 +5,7 @@ service cloud.firestore {
     // ⚠️ CAMBIA este correo por el del usuario administrador que creaste en Authentication.
     function isAdmin() {
       return request.auth != null
-        && request.auth.token.email == "TU_CORREO_ADMIN@gmail.com";
+        && request.auth.token.email == "alfredito1592@gmail.com";
     }
 
     // Configuración de la tarjeta, productos y servicios: todos leen, solo el admin escribe.
